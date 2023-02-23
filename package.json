@@ -1,0 +1,56 @@
+{
+  "name": "capintel-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.5",
+    "@mui/x-date-pickers": "^5.0.15",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^12.20.1",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "axios": "^1.2.3",
+    "dayjs": "^1.11.7",
+    "highcharts": "^9.3.3",
+    "highcharts-react-official": "^3.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^8.0.5",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.1.0"
+  },
+  "proxy": "https://challenge.capintel.com",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
